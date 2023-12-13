@@ -1,0 +1,80 @@
+.cont {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.h1{
+    font-family: 'Bitter', serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 650px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: rgb(133, 129, 129);
+}
+.cell {
+    box-sizing: border-box;
+    border: rgb(0, 0, 0) 3px solid;
+    width: 200px;
+    height: 200px;
+    font-size: 165px;
+    border-radius: 50px;
+    margin: 7px 7px 7px 7px;
+    color: white;
+}
+
+#start {
+    margin-top: 17px;
+    padding: 5px;
+    width: 110px;
+    height: 50px;
+    background-color: rgb(5, 87, 5);
+    color: bisque;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#start:hover{
+    filter: brightness(120%);
+}
+
+#start:active{
+    filter: brightness(80%);
+}
+
+#notification {
+    display: none;
+    padding: 10px;
+    margin: 10px;
+    width: 600px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.win {
+    background-color: lightgreen;
+}
+.draw {
+    background-color: rgb(247, 243, 8);
+}
+.lose {
+    background-color: rgb(173, 0, 0);
+    color:white;
+}
